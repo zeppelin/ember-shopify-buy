@@ -1,26 +1,17 @@
-# Ember-shopify-buy
+# Ember Shopify Buy
 
-This README outlines the details of collaborating on this Ember addon.
+An Ember addon wrapper for the Shopify Buy SDK
 
 ## Installation
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+```
+ember install ember-shopify-buy
+```
 
-## Running
+## Usage
 
-* `ember serve`
-* Visit your app at http://localhost:4200.
+This addon adds the Shopify Buy SDK to your Ember.JS project as AMD modules,
+these modules are compatible with the ES6 modules in your Ember.JS project.
 
-## Running Tests
-
-* `npm test` (Runs `ember try:testall` to test your addon against multiple Ember versions)
-* `ember test`
-* `ember test --server`
-
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [http://ember-cli.com/](http://ember-cli.com/).
+Please checkout the [official
+documentation](http://shopify.github.io/js-buy-sdk/) for more details.
