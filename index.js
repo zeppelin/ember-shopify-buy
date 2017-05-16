@@ -11,6 +11,6 @@ module.exports = {
   },
 
   included: function(app) {
-    app.import('vendor/shopify-buy/dist/shopify-buy.polyfilled.amd.js');
+    app.import('vendor/shopify-buy/dist/shopify-buy.umd.polyfilled.js');
   }
 };
